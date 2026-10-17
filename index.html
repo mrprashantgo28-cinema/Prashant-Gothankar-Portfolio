@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0D0D0D">
+  <meta name="description" content="Prashant Gothankar — Graphic Designer & Visual Creator Portfolio">
+  <title>Prashant Gothankar — Visual Experience & Design</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">PRASHANT<span class="gold-dot">.</span></a>
+      <nav class="nav-menu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#work" class="nav-link">Portfolio</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#contact" class="btn btn-primary nav-cta">Let's Talk ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="badge">Independent Creative Designer</div>
+          <h1 class="hero-title">Design that<br>feels <em class="gold-text">different.</em></h1>
+          <p class="hero-description">
+            I'm <strong>Prashant Gothankar</strong>, a creative graphic designer specializing in visual storytelling, bespoke brand identities, and elevated print & digital experiences.
+          </p>
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">Explore Work <span class="arrow">↗</span></a>
+            <a href="#contact" class="btn btn-secondary">Start a Project</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-num">01</span>
+              <span class="stat-label">Visual Storytelling</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">02</span>
+              <span class="stat-label">Brand Identity</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">03</span>
+              <span class="stat-label">Creative Concepts</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-portrait-wrapper reveal">
+          <div class="portrait-frame">
+            <!-- Hero image set to PNG as requested -->
+            <img src="IMG_8099.png" alt="Prashant Gothankar" class="portrait-img">
+            <div class="portrait-overlay"></div>
+          </div>
+          <div class="floating-badge badge-top">
+            <span class="badge-title">Creative Direction</span>
+            <span class="badge-sub">Ideas into identity</span>
+          </div>
+          <div class="floating-badge badge-bottom">
+            <span class="badge-title">Design with Purpose</span>
+            <span class="badge-sub">Clarity · Craft · Character</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-card card-container reveal">
+          <div class="badge">A little about me</div>
+          <h2 class="about-greet">Hello<span class="gold-text">!</span></h2>
+          <p class="about-subtext">Curiosity-led design. Built with intention.</p>
+        </div>
+        <div class="about-text-wrap reveal">
+          <div class="badge">The person behind the pixels</div>
+          <h3 class="about-heading">Good design isn't just seen.<br><span class="gold-text">It's remembered.</span></h3>
+          <p>I thrive on exploring new challenges and opportunities that push the boundaries of visual expression. My goal is to create visuals that communicate clearly, reflect a brand's unique identity, and leave a lasting impression.</p>
+          <div class="skills-tags">
+            <span class="tag">Visual Storytelling</span>
+            <span class="tag">Brand Identity</span>
+            <span class="tag">Creative Concepts</span>
+            <span class="tag">Digital Design</span>
+            <span class="tag">Print Media</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <div class="badge">Selected Projects</div>
+            <h2 class="section-title">My Creative <span class="gold-text">Universe.</span></h2>
+          </div>
+          <p class="section-desc">A curated collection of brand identities, print media, and social creatives crafted for maximum impact.</p>
+        </div>
+
+        <div class="filter-bar reveal">
+          <button class="filter-btn active" data-filter="all">All Work</button>
+          <button class="filter-btn" data-filter="logo">Logo Design</button>
+          <button class="filter-btn" data-filter="branding">Branding</button>
+          <button class="filter-btn" data-filter="social">Social Media</button>
+          <button class="filter-btn" data-filter="print">Print Media</button>
+          <button class="filter-btn" data-filter="packaging">Packaging</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card card-container reveal" data-category="logo">
+            <div class="card-img-wrap"><img src="assets/logo-design.jpg" alt="Logo Folio" loading="lazy"></div>
+            <div class="card-info">
+              <div><h3>Logo Folio</h3><p>Identity · Symbol · Wordmark</p></div>
+              <span class="card-arrow">↗</span>
+            </div>
+          </article>
+
+          <article class="project-card card-container reveal" data-category="branding">
+            <div class="card-img-wrap"><img src="assets/techgroup-branding.jpg" alt="TechGroup Branding" loading="lazy"></div>
+            <div class="card-info">
+              <div><h3>TechGroup</h3><p>Brand Identity · IT Solutions</p></div>
+              <span class="card-arrow">↗</span>
+            </div>
+          </article>
+
+          <article class="project-card card-container reveal" data-category="social">
+            <div class="card-img-wrap"><img src="assets/social-media-01.jpg" alt="Social Media" loading="lazy"></div>
+            <div class="card-info">
+              <div><h3>Social Media</h3><p>Campaigns · Digital Creatives</p></div>
+              <span class="card-arrow">↗</span>
+            </div>
+          </article>
+
+          <article class="project-card card-container reveal" data-category="social">
+            <div class="card-img-wrap"><img src="assets/social-media-02.jpg" alt="Social Creatives" loading="lazy"></div>
+            <div class="card-info">
+              <div><h3>Social Creatives</h3><p>Content · Visual Communication</p></div>
+              <span class="card-arrow">↗</span>
+            </div>
+          </article>
+
+          <article class="project-card card-container reveal" data-category="print">
+            <div class="card-img-wrap"><img src="assets/print-media.jpg" alt="Print Media" loading="lazy"></div>
+            <div class="card-info">
+              <div><h3>Print Media</h3><p>Brochure · Business Card Design</p></div>
+              <span class="card-arrow">↗</span>
+            </div>
+          </article>
+
+          <article class="project-card card-container reveal" data-category="packaging">
+            <div class="card-img-wrap"><img src="assets/packaging-design.jpg" alt="Packaging Design" loading="lazy"></div>
+            <div class="card-info">
+              <div><h3>Packaging Design</h3><p>Product Presence · Bespoke Craft</p></div>
+              <span class="card-arrow">↗</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <div class="badge">What I Create</div>
+            <h2 class="section-title">Services Built <span class="gold-text">With Purpose.</span></h2>
+          </div>
+          <p class="section-desc">From initial concept to final artwork delivery, every project is crafted to be clean, distinctive, and memorable.</p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card card-container reveal">
+            <span class="service-num">01 / IDENTITY</span>
+            <h3>Logo Design</h3>
+            <p>Distinctive symbols and wordmarks that capture a brand's core essence.</p>
+          </div>
+          <div class="service-card card-container reveal">
+            <span class="service-num">02 / BRAND</span>
+            <h3>Branding Design</h3>
+            <p>Cohesive visual systems that convey personality, clarity, and trust.</p>
+          </div>
+          <div class="service-card card-container reveal">
+            <span class="service-num">03 / DIGITAL</span>
+            <h3>Social Media</h3>
+            <p>High-impact creatives engineered to stop the scroll and build engagement.</p>
+          </div>
+          <div class="service-card card-container reveal">
+            <span class="service-num">04 / PRINT</span>
+            <h3>Print & Packaging</h3>
+            <p>Premium tactile packaging, brochures, and stationery that elevate presence.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-box card-container reveal">
+          <div class="badge">Have a project in mind?</div>
+          <h2 class="contact-title">Let's create something <span class="gold-text">extraordinary.</span></h2>
+          <p class="contact-desc">Have a brand to build or a design challenge to solve? Get in touch and let's elevate your brand presence.</p>
+          <div class="contact-buttons">
+            <a href="https://wa.me/918850655529?text=Hi%20Prashant%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20design%20project." target="_blank" class="btn btn-primary">
+              WhatsApp Direct ↗
+            </a>
+            <a href="https://www.instagram.com/cinematic.chayachitra/" target="_blank" class="btn btn-secondary">
+              Instagram Photography ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <a href="#home" class="logo">PRASHANT<span class="gold-dot">.</span></a>
+      <p>© <span id="year"></span> Prashant Gothankar. All rights reserved.</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
