@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11110f">
+  <meta name="description" content="Prashant Gothankar — Graphic Designer & Visual Creator. Branding, identity, packaging and visual design.">
+  <title>Prashant Gothankar — Graphic Designer & Visual Creator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Italianno&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="intro" id="intro" aria-label="Introduction">
+    <div class="intro-top"><span>INDEPENDENT DESIGNER</span><span>INDIA · AVAILABLE FOR PROJECTS</span></div>
+    <div class="intro-name" aria-hidden="true">PRASHANT<br>GOTHANKAR</div>
+    <div class="intro-copy">
+      <p class="eyebrow">DESIGN WITH INTENTION — 01 / 01</p>
+      <h1>Prashant<br><em>Gothankar.</em></h1>
+      <p class="intro-description">I turn ideas into thoughtful visual experiences — building identities, shaping brands and creating design that stays with you.</p>
+      <button class="enter-button" id="enterButton" type="button"><span>EXPLORE MY WORK</span><span class="arrow">↘</span></button>
+    </div>
+    <div class="portrait-wrap">
+      <div class="portrait-glow"></div>
+      <img class="portrait" src="assets/prashant-cutout.png" alt="Portrait of Prashant Gothankar" onerror="this.style.opacity=0">
+      <span class="portrait-note">VISUAL THINKER<br>DETAIL OBSESSED</span>
+    </div>
+    <div class="intro-bottom"><span>SCROLL TO ENTER</span><span class="scroll-line"></span><span>© 2026</span></div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <a class="wordmark" href="#home" aria-label="Prashant Gothankar home">Prashant Gothankar<span>®</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#work">Portfolio Design <i>01</i></a>
+      <a href="#about">About Us <i>02</i></a>
+      <a href="#contact">Contact <i>03</i></a>
+    </nav>
+    <a class="header-availability" href="#contact"><span></span> AVAILABLE FOR WORK</a>
+  </header>
+
+  <main id="home">
+    <section class="hero-main section-pad">
+      <div class="hero-kicker"><span>INDEPENDENT GRAPHIC DESIGNER</span><span>MUMBAI, INDIA · 2026</span></div>
+      <h2>Making ideas<br> <span>impossible</span> to ignore<span class="period">.</span></h2>
+      <div class="hero-foot">
+        <p>Visual identities, graphic design<br>and stories built to stand out.</p>
+        <a class="round-link" href="#work" aria-label="Explore selected work">↓</a>
+        <span class="hero-index">SCROLL TO DISCOVER&nbsp; ↘</span>
+      </div>
+    </section>
+
+    <section class="work-section section-pad" id="work">
+      <div class="section-heading">
+        <div><p class="eyebrow">A SELECTION OF MY WORK / 2023—26</p><h2>Selected <em>works.</em></h2></div>
+        <p class="section-aside">A collection of visual explorations<br>and ideas brought to life.</p>
+      </div>
+      <div class="portfolio-grid" id="portfolioGrid">
+        <button class="work-card work-card-large" data-index="0" type="button" aria-label="Open portfolio image 01"><img src="assets/portfolio-images-01.jpg" alt="Portfolio project 01" loading="lazy"><span class="work-overlay"><b>01</b><span>VIEW PROJECT ↗</span></span></button>
+        <button class="work-card" data-index="1" type="button" aria-label="Open portfolio image 02"><img src="assets/portfolio-images-02.jpg" alt="Portfolio project 02" loading="lazy"><span class="work-overlay"><b>02</b><span>VIEW PROJECT ↗</span></span></button>
+        <button class="work-card" data-index="2" type="button" aria-label="Open portfolio image 03"><img src="assets/portfolio-images-03.jpg" alt="Portfolio project 03" loading="lazy"><span class="work-overlay"><b>03</b><span>VIEW PROJECT ↗</span></span></button>
+        <button class="work-card work-card-tall" data-index="3" type="button" aria-label="Open portfolio image 04"><img src="assets/portfolio-images-04.jpg" alt="Portfolio project 04" loading="lazy"><span class="work-overlay"><b>04</b><span>VIEW PROJECT ↗</span></span></button>
+        <button class="work-card" data-index="4" type="button" aria-label="Open portfolio image 05"><img src="assets/portfolio-images-05.jpg" alt="Portfolio project 05" loading="lazy"><span class="work-overlay"><b>05</b><span>VIEW PROJECT ↗</span></span></button>
+        <button class="work-card" data-index="5" type="button" aria-label="Open portfolio image 06"><img src="assets/portfolio-images-06.jpg" alt="Portfolio project 06" loading="lazy"><span class="work-overlay"><b>06</b><span>VIEW PROJECT ↗</span></span></button>
+        <button class="work-card work-card-large" data-index="6" type="button" aria-label="Open portfolio image 07"><img src="assets/portfolio-images-07.jpg" alt="Portfolio project 07" loading="lazy"><span class="work-overlay"><b>07</b><span>VIEW PROJECT ↗</span></span></button>
+        <button class="work-card" data-index="7" type="button" aria-label="Open portfolio image 08"><img src="assets/portfolio-images-08.jpg" alt="Portfolio project 08" loading="lazy"><span class="work-overlay"><b>08</b><span>VIEW PROJECT ↗</span></span></button>
+        <button class="work-card" data-index="8" type="button" aria-label="Open portfolio image 09"><img src="assets/portfolio-images-09.jpg" alt="Portfolio project 09" loading="lazy"><span class="work-overlay"><b>09</b><span>VIEW PROJECT ↗</span></span></button>
+        <button class="work-card work-card-tall" data-index="9" type="button" aria-label="Open portfolio image 10"><img src="assets/portfolio-images-10.jpg" alt="Portfolio project 10" loading="lazy"><span class="work-overlay"><b>10</b><span>VIEW PROJECT ↗</span></span></button>
+        <button class="work-card" data-index="10" type="button" aria-label="Open portfolio image 11"><img src="assets/portfolio-images-11.jpg" alt="Portfolio project 11" loading="lazy"><span class="work-overlay"><b>11</b><span>VIEW PROJECT ↗</span></span></button>
+        <button class="work-card" data-index="11" type="button" aria-label="Open portfolio image 12"><img src="assets/portfolio-images-12.jpg" alt="Portfolio project 12" loading="lazy"><span class="work-overlay"><b>12</b><span>VIEW PROJECT ↗</span></span></button>
+        <button class="work-card work-card-large" data-index="12" type="button" aria-label="Open portfolio image 13"><img src="assets/portfolio-images-13.jpg" alt="Portfolio project 13" loading="lazy"><span class="work-overlay"><b>13</b><span>VIEW PROJECT ↗</span></span></button>
+        <button class="work-card" data-index="13" type="button" aria-label="Open portfolio image 14"><img src="assets/portfolio-images-14.jpg" alt="Portfolio project 14" loading="lazy"><span class="work-overlay"><b>14</b><span>VIEW PROJECT ↗</span></span></button>
+        <button class="work-card" data-index="14" type="button" aria-label="Open portfolio image 15"><img src="assets/portfolio-images-15.jpg" alt="Portfolio project 15" loading="lazy"><span class="work-overlay"><b>15</b><span>VIEW PROJECT ↗</span></span></button>
+        <button class="work-card work-card-tall" data-index="15" type="button" aria-label="Open portfolio image 16"><img src="assets/portfolio-images-16.jpg" alt="Portfolio project 16" loading="lazy"><span class="work-overlay"><b>16</b><span>VIEW PROJECT ↗</span></span></button>
+        <button class="work-card" data-index="16" type="button" aria-label="Open portfolio image 17"><img src="assets/portfolio-images-17.jpg" alt="Portfolio project 17" loading="lazy"><span class="work-overlay"><b>17</b><span>VIEW PROJECT ↗</span></span></button>
+        <button class="work-card" data-index="17" type="button" aria-label="Open portfolio image 18"><img src="assets/portfolio-images-18.jpg" alt="Portfolio project 18" loading="lazy"><span class="work-overlay"><b>18</b><span>VIEW PROJECT ↗</span></span></button>
+      </div>
+      <p class="grid-footnote">18 SELECTED VISUALS <span>— CLICK ANY PROJECT TO EXPAND</span></p>
+    </section>
+
+    <section class="about-section section-pad" id="about">
+      <p class="eyebrow">A LITTLE ABOUT ME / 02</p>
+      <div class="about-layout">
+        <h2>Good design<br>is <em>felt.</em><br>Not just seen.</h2>
+        <div class="about-copy"><p class="about-lead">I’m Prashant Gothankar, a graphic designer passionate about creating visuals with clarity, character and purpose.</p><p>From brand identities and logos to packaging and digital visuals, I enjoy turning a simple thought into a memorable visual language. My approach is curious, detail-driven and always evolving.</p><div class="services"><span>BRAND IDENTITY</span><span>LOGO DESIGN</span><span>PACKAGING</span><span>VISUAL DESIGN</span></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section section-pad" id="contact">
+      <p class="eyebrow">HAVE A GOOD ONE IN MIND? / 03</p>
+      <h2>Let’s make<br>something <em>matter.</em></h2>
+      <div class="contact-bottom"><p>Have a project, an idea or just want to say hello?<br>My inbox is always open for good conversations.</p><div class="contact-actions">
+        <a class="contact-button instagram" href="https://www.instagram.com/cinematic.chayachitra/" target="_blank" rel="noopener noreferrer"><span class="social-icon">◎</span> INSTAGRAM <span>↗</span></a>
+        <a class="contact-button whatsapp" href="https://wa.me/918850655529?text=Hi%20Prashant%2C%20I%20checked%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20design%20project%20with%20you%21" target="_blank" rel="noopener noreferrer"><span class="social-icon">◉</span> LET’S TALK ON WHATSAPP <span>↗</span></a>
+      </div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="wordmark" href="#home">Prashant Gothankar<span>®</span></a><span>DESIGNED WITH INTENTION · © 2026</span><a href="#home">BACK TO TOP ↑</a></footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Portfolio image preview" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close preview">×</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image">←</button>
+    <figure><img id="lightboxImage" src="" alt="Portfolio preview"><figcaption id="lightboxCaption"></figcaption></figure>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next image">→</button>
+  </div>
+</body>
+</html>
